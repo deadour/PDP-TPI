@@ -1,0 +1,1 @@
+Object subclass: #DuelGameWithGUI    instanceVariableNames: 'board players currentPlayer winner window categories timer startTime feedbackWindow feedbackMorph'    classVariableNames: ''    poolDictionaries: ''    category: 'Games'.

@@ -1,0 +1,1 @@
+| juego |juego := DuelGameWithGUI new.juego startGame.

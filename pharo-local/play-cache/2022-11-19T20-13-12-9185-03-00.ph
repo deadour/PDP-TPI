@@ -1,0 +1,1 @@
+movimiento := 'H'.unJugador := 1.(movimiento='H') ifTrue:[ c:=0. band:=True. i:=1. j:=0. cj:=0.	[ band=True ] whileTrue:[		1 to:3 do:[			(((arreglo at:i)at:j)= 0) ifTrue:[				c:= c + 1			].			(((arreglo at:i)at:j)=unJugador) ifTrue:[				cj:= cj + 1			]				].	].].UIManager inform: c.UIManager inform: cj.

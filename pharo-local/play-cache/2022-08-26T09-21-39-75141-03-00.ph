@@ -1,0 +1,1 @@
+$b isVowel ifTrue:[^'es una vocal']ifFalse:[^'es una consonante']

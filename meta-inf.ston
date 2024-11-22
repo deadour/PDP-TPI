@@ -1,0 +1,40 @@
+PhLImage {
+	#formatNumber : 68021,
+	#architecture : '64',
+	#pharoVersion : '80',
+	#originTemplate : PhLRemoteTemplate {
+		#name : 'Moose Suite 8.0 (old stable)',
+		#url : URL [ 'https://github.com/moosetechnology/Moose/releases/download/v8.x.x/Moose8-old-stable-Pharo64-8.0.zip' ]
+	},
+	#vmManager : PhLVirtualMachineManager {
+		#imageFile : FileLocator {
+			#path : RelativePath [ 'Moose Suite 8.0 (old stable)', 'Moose Suite 8.0 (old stable).image' ],
+			#origin : #launcherImagesLocation
+		},
+		#imageFormatNumber : 68021,
+		#imageVersion : '80'
+	},
+	#launchConfigurations : OrderedCollection [
+		PhLLaunchConfiguration {
+			#image : @1,
+			#name : 'Default',
+			#imageArguments : OrderedCollection [ ],
+			#vm : PhLVirtualMachine {
+				#executableRef : FileLocator {
+					#path : RelativePath [ '80-x64', 'Pharo.exe' ],
+					#origin : #launcherVMsLocation
+				},
+				#vmBinaryRef : FileLocator {
+					#path : RelativePath [ '80-x64', 'Pharo.exe' ],
+					#origin : #launcherVMsLocation
+				},
+				#manager : @4,
+				#flavour : '',
+				#id : '80-x64',
+				#blessing : 'stable',
+				#arch : '64'
+			}
+		}
+	],
+	#shouldRunInitializationScript : false
+}

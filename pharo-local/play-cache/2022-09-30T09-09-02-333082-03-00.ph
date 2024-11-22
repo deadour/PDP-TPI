@@ -1,0 +1,1 @@
+|cadena cont|cadena := (UIManager default request: 'Ingrese cadena').cont :=0.1 to: (cadena size ) do: [ :i|	((cadena at: i) isUppercase ) ifTrue: [ 		cont:= cont + 1 ]	 ].Transcript 	show: 'Cantidad de palabras en mayusculas: ' ;	show: cont. 

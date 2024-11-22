@@ -1,0 +1,1 @@
+|n arreglo i x|n:= (UIManager default request: 'Ingrese el numero del cual quiere obtener multiplos: ') asInteger.i:= (UIManager default request: 'Ingrese cuantos multiplos desea obtener: ') asInteger.arreglo:= Array new: i.1 to: i do: [ :j|	x:= (n * j).	arreglo at: j put: x	 ].^arreglo.

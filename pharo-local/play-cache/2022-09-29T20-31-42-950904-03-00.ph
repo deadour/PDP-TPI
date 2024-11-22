@@ -1,0 +1,1 @@
+|cadena n cont|cadena:= UIManager default request: 'Ingrese la cadena'.n:= (cadena size).cont:=0.1 to: n do: [ :i|	((cadena at: i) isVowel ) ifTrue: [ 		cont:= cont +1 ]	 ].^cont.

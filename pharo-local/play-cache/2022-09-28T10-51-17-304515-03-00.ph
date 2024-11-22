@@ -1,0 +1,1 @@
+|n cont| n:= (UIManager default request: 'Ingrese un numero') asInteger.cont:=0.((n \\ 2) == 0) ifTrue: [ 	cont:= 1 ].(cont == 1) ifTrue: [ 	UIManager inform: 'El numero:   ', n asString, '   es par.']				ifFalse: [ 	UIManager inform: 'El numero:   ', n asString, '    es impar'].cont:=0.
